@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"eee12c877506a3c8","type":"group","x":0,"y":0,"width":1200,"height":750,"label":"AI + GTM","color":"1"},
+		{"id":"724e8034bfd28395","type":"text","x":30,"y":40,"width":520,"height":650,"text":"# AI + GTM\n\n## Sources\n- Kieran Flanagan\n- GTM Strategist\n- Kyle Poyar\n\n## Models\n- [[AI Mode 2x2]]\n- [[Skills Over Prompts]]\n- [[Context Engineering Maturity]]\n- [[AEO]]"},
+		{"id":"14f2e87d4464435a","type":"text","x":600,"y":40,"width":520,"height":650,"color":"1","text":"# Synthesis\n\n**Consensus**: AI transforming GTM but 53% see no impact. Gap = context infrastructure, not tools.\n\n**Tension**: Kieran: generalists + AI agents replace specialists. Maja: GTM Engineers = new specialist ($135K). Both true: generalist orchestrates, engineer builds.\n\n**Contrarian**: Context > instructions. Skills > prompts. Real moat = encoded domain expertise."},
+		{"id":"2aa046a9dae1c6d6","type":"group","x":1400,"y":0,"width":1200,"height":750,"label":"PLG & Distribution","color":"4"},
+		{"id":"066dc3a220525f70","type":"text","x":1430,"y":40,"width":520,"height":650,"text":"# PLG & Distribution\n\n## Sources\n- How They Grow\n- Kyle Poyar\n\n## Models\n- [[PLG Iceberg]]\n- [[Negative CAC]]\n- [[Sidecar Products]]\n- [[Innovation Stack]]"},
+		{"id":"cf695b9b732336d3","type":"text","x":2000,"y":40,"width":520,"height":650,"color":"4","text":"# Synthesis\n\n**Consensus**: PLG = dominant SaaS growth.\n\n**Tension**: PLG purists: self-serve IS the model. Iceberg: 60-80% revenue from enterprise deals seeded by bottom-up usage.\n\n**Contrarian**: Make product HARD to buy. Deliberate friction creates stronger positioning."},
+		{"id":"6b7b50ce876d3b47","type":"group","x":0,"y":900,"width":1200,"height":750,"label":"Positioning & Messaging","color":"3"},
+		{"id":"b79e29ba59d6f167","type":"text","x":30,"y":940,"width":520,"height":650,"text":"# Positioning & Messaging\n\n## Sources\n- Anthony Pierri\n- Emily Kramer\n- Emma Stratton\n\n## Models\n- [[Concentric Dials]]\n- [[4 Product Types]]\n- [[Clarity→Compelling→Unique]]"},
+		{"id":"6b831e0fab1a1a72","type":"text","x":600,"y":940,"width":520,"height":650,"color":"3","text":"# Synthesis\n\n**Consensus**: Clarity necessary but not sufficient.\n\n**Tension**: Benefits-first vs features-first. Both right — audience-dependent.\n\n**Contrarian**: Most important decision (4 Product Types) is most skipped. Choose type BEFORE messaging."},
+		{"id":"2e53450263b9c688","type":"group","x":1400,"y":900,"width":1200,"height":750,"label":"Founder-Led Content","color":"6"},
+		{"id":"fa606a1c233b67d1","type":"text","x":1430,"y":940,"width":520,"height":650,"text":"# Founder-Led Content\n\n## Sources\n- Social Files\n- Kieran Flanagan\n\n## Models\n- [[Content Ecosystem]]\n- [[Profile-as-Landing-Page]]\n- [[Content Dilution Trap]]"},
+		{"id":"b4430ed3b85b8d98","type":"text","x":2000,"y":940,"width":520,"height":650,"color":"6","text":"# Synthesis\n\n**Consensus**: LinkedIn = powerful B2B distribution.\n\n**Tension**: Delegation > founder-written (Tommy) vs authenticity requires writing yourself.\n\n**Contrarian**: Financially irresponsible NOT to publish. $22-25M pipeline from one founder's LinkedIn."},
+		{"id":"fc6767af5f48148d","type":"group","x":700,"y":1800,"width":1200,"height":750,"label":"Competitive Strategy","color":"2"},
+		{"id":"b027d58017a8c210","type":"text","x":730,"y":1840,"width":520,"height":650,"text":"# Competitive Strategy\n\n## Sources\n- How They Grow\n- Wynter\n\n## Models\n- [[Stacked Opposites]]\n- [[David vs Goliath]]\n- [[Three Memory Assets]]"},
+		{"id":"d1bb264402408848","type":"text","x":1300,"y":1840,"width":520,"height":650,"color":"2","text":"# Synthesis\n\n**Consensus**: Differentiation matters more than ever.\n\n**Tension**: Feature moats vs Innovation Stacks. Gap in market != market in gap.\n\n**Contrarian**: Own weaknesses. Stop innovating. Being remembered > being remarkable."}
+	],
+	"edges":[
+		{"id":"672d8e07ebfd986f","fromNode":"724e8034bfd28395","fromSide":"right","toNode":"14f2e87d4464435a","toSide":"left","toEnd":"arrow"},
+		{"id":"7f6d58a2c855e3fb","fromNode":"066dc3a220525f70","fromSide":"right","toNode":"cf695b9b732336d3","toSide":"left","toEnd":"arrow"},
+		{"id":"815033c8673ec8ed","fromNode":"b79e29ba59d6f167","fromSide":"right","toNode":"6b831e0fab1a1a72","toSide":"left","toEnd":"arrow"},
+		{"id":"b619b15966918fc0","fromNode":"fa606a1c233b67d1","fromSide":"right","toNode":"b4430ed3b85b8d98","toSide":"left","toEnd":"arrow"},
+		{"id":"312cc58fdf5a0f99","fromNode":"b027d58017a8c210","fromSide":"right","toNode":"d1bb264402408848","toSide":"left","toEnd":"arrow"}
+	]
+}

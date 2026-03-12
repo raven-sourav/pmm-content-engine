@@ -1,0 +1,55 @@
+# === Proprietary & Sensitive Content ===
+
+# Raw scraped newsletter content (copyrighted)
+data/scraped/
+
+# PMM Brain JSON (contains synthesized newsletter insights + voice profiles)
+data/brain/
+
+# User's personal posts and visual references
+data/user/
+
+# Reference writer content
+data/writers/
+
+# Generated output content
+data/output/
+output/
+drafts/
+
+# Local databases
+data/storage/
+data/sqlite/
+data/chroma/
+
+# Exports
+data/exports/
+
+# === Obsidian Brain — Raw Posts (copyrighted newsletter articles) ===
+obsidian-brain/PMM Brain/Raw Posts/
+
+# === Environment & OS ===
+.venv/
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.DS_Store
+*.sqlite3
+
+# === IDE & Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Obsidian local config ===
+obsidian-brain/.obsidian/
+
+# === Claude local settings ===
+.claude/settings.local.json

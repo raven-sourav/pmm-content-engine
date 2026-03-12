@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"655ab08a6097374e","type":"text","x":500,"y":500,"width":300,"height":150,"color":"5","text":"# PMM Brain v3.0\n\n37 models | 69 stats\n13 sources | 26 emerging"},
+		{"id":"415fa58f948709f0","type":"text","x":100,"y":100,"width":260,"height":100,"color":"4","text":"## How They Grow\nPLG, Growth Cases"},
+		{"id":"b89dc263e08d0692","type":"text","x":1000,"y":100,"width":260,"height":100,"color":"1","text":"## GTM Strategist\nAI GTM, ABM, Signals"},
+		{"id":"836d53c7a15d45c6","type":"text","x":1300,"y":700,"width":260,"height":100,"color":"1","text":"## Kieran Flanagan\nAI Marketing, AEO"},
+		{"id":"4d20e6301999e72c","type":"text","x":1000,"y":1200,"width":260,"height":100,"color":"6","text":"## Social Files\nFounder Content, LinkedIn"},
+		{"id":"7ff5165f03cf9737","type":"text","x":100,"y":1200,"width":260,"height":100,"color":"3","text":"## Anthony Pierri\nPositioning, Homepages"},
+		{"id":"3a7a509c82188b5b","type":"text","x":0,"y":700,"width":260,"height":100,"color":"3","text":"## Emily Kramer\nMarketing Org, Planning"},
+		{"id":"f591b6e61520158e","type":"text","x":300,"y":300,"width":260,"height":100,"color":"2","text":"## Kyle Poyar\nPricing, PLG, Monetization"},
+		{"id":"e78a4820283a3363","type":"text","x":700,"y":200,"width":260,"height":100,"color":"2","text":"## Wynter\nBrand, Buyer Research"},
+		{"id":"bdcb4721b7475048","type":"text","x":600,"y":50,"width":260,"height":100,"color":"6","text":"## Nathan Baugh\nStorytelling, Narrative"}
+	],
+	"edges":[
+		{"id":"3d6059af627a85c5","fromNode":"655ab08a6097374e","toNode":"415fa58f948709f0","toEnd":"arrow","fromSide":"top","toSide":"bottom"},
+		{"id":"5d244de6f5c84b27","fromNode":"655ab08a6097374e","toNode":"b89dc263e08d0692","toEnd":"arrow","fromSide":"top","toSide":"bottom"},
+		{"id":"287712c81c79a75f","fromNode":"655ab08a6097374e","toNode":"836d53c7a15d45c6","toEnd":"arrow","fromSide":"right","toSide":"left"},
+		{"id":"f50c78669c4f4e13","fromNode":"655ab08a6097374e","toNode":"4d20e6301999e72c","toEnd":"arrow","fromSide":"bottom","toSide":"top"},
+		{"id":"6f1f5ad1512eecae","fromNode":"655ab08a6097374e","toNode":"7ff5165f03cf9737","toEnd":"arrow","fromSide":"bottom","toSide":"top"},
+		{"id":"a1a6aac648f23934","fromNode":"655ab08a6097374e","toNode":"3a7a509c82188b5b","toEnd":"arrow","fromSide":"left","toSide":"right"},
+		{"id":"57f58ae39dd14ac8","fromNode":"655ab08a6097374e","toNode":"f591b6e61520158e","toEnd":"arrow","fromSide":"top","toSide":"bottom"},
+		{"id":"248bcac0d9bf86b1","fromNode":"655ab08a6097374e","toNode":"e78a4820283a3363","toEnd":"arrow","fromSide":"top","toSide":"bottom"},
+		{"id":"65b466f8ab487d69","fromNode":"655ab08a6097374e","toNode":"bdcb4721b7475048","toEnd":"arrow","fromSide":"top","toSide":"bottom"},
+		{"id":"21eff26022ab12a4","fromNode":"415fa58f948709f0","toNode":"b89dc263e08d0692","toEnd":"arrow","label":"PLG + AI GTM","color":"5","fromSide":"right","toSide":"left"},
+		{"id":"cca1b873b650ad58","fromNode":"836d53c7a15d45c6","toNode":"b89dc263e08d0692","toEnd":"arrow","label":"AI Stack","color":"5","fromSide":"top","toSide":"bottom"},
+		{"id":"fbdda30eb19be015","fromNode":"4d20e6301999e72c","toNode":"836d53c7a15d45c6","toEnd":"arrow","label":"AI + Content","color":"5","fromSide":"top","toSide":"bottom"},
+		{"id":"0273edd548474fa1","fromNode":"7ff5165f03cf9737","toNode":"3a7a509c82188b5b","toEnd":"arrow","label":"Positioning","color":"5","fromSide":"top","toSide":"bottom"},
+		{"id":"8f7d0a1f01193cfc","fromNode":"f591b6e61520158e","toNode":"b89dc263e08d0692","toEnd":"arrow","label":"Pricing + Data","color":"5","fromSide":"right","toSide":"left"},
+		{"id":"1d9f39add6c0b545","fromNode":"415fa58f948709f0","toNode":"f591b6e61520158e","toEnd":"arrow","label":"PLG + Pricing","color":"5","fromSide":"bottom","toSide":"top"},
+		{"id":"311bb890fa9419e1","fromNode":"e78a4820283a3363","toNode":"7ff5165f03cf9737","toEnd":"arrow","label":"Brand + Messaging","color":"5","fromSide":"bottom","toSide":"top"}
+	]
+}
