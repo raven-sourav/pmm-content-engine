@@ -141,24 +141,6 @@ This is NOT a traditional Python app with API calls. **Claude Code IS the LLM en
 | Topic depth layers | 11 |
 | Emerging beliefs tracked | 26 |
 
-### Newsletter Sources
-
-| Source | Posts | Focus |
-|--------|-------|-------|
-| Anthony Pierri — In The Kitchen | 29 | Positioning, messaging, homepage teardowns |
-| Emily Kramer — MKT1 | 146 | Marketing org design, positioning, planning |
-| Kyle Poyar — Growth Unhinged | 180 | PLG, pricing, usage-based models, benchmarks |
-| Peep Laja / Wynter | 1 | Brand differentiation, mental availability |
-| Nathan Baugh — World Builders | 22 | Storytelling frameworks, narrative structure |
-| Richard King — PMA | 42 | PMM org structure, influence, career |
-| Aatir Abdul Rauf | 78 | PMM fundamentals, competitive intel, adoption |
-| Strategic Nerds | 20 | Enterprise GTM, technical audiences |
-| Punchy (Emma Stratton) | 7 | B2B messaging simplification |
-| How They Grow | 108 | Growth deep dives, company teardowns |
-| GTM Strategist | 84 | Go-to-market strategy, launch frameworks |
-| Kieran Flanagan | 52 | AI + marketing, growth strategy |
-| Social Files | 96 | Social media strategy, content creation |
-
 ## Expert Technique Libraries
 
 Extracted techniques (no voice mimicry) from 5 marketing experts:
