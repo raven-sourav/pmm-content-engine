@@ -34,7 +34,8 @@ creative-writer/
 │   ├── ingest/SKILL.md              <- Add new content to the system
 │   ├── scraper/SKILL.md             <- Scrape Substack/Beehiiv newsletters
 │   ├── observe/SKILL.md             <- Self-improving: execution logging
-│   └── inspect-amend/SKILL.md       <- Self-improving: inspect, amend, evaluate
+│   ├── inspect-amend/SKILL.md       <- Self-improving: inspect, amend, evaluate
+│   └── ship/SKILL.md               <- Safe push with secret scanning (/ship)
 ├── experts/                           <- Technique libraries (Tier 3)
 │   ├── ogilvy-headlines.md           <- Headline principles, Big Idea test
 │   ├── garyvee-distribution.md       <- Pillar→Micro model, platform-native rules
@@ -89,6 +90,7 @@ creative-writer/
 | **Q&A** | Question about PMM, positioning, etc. | Direct from Brain | Relevant Brain section |
 | **Observe** | After any skill execution with notable signals | `skills/observe/SKILL.md` | None (auto) |
 | **Inspect & Amend** | "Inspect skills" / "Calibrate skills" / 3+ flags for same skill | `skills/inspect-amend/SKILL.md` | Observation logs |
+| **Ship** | "/ship" / "ship it" / "safe push" | `skills/ship/SKILL.md` | None |
 
 ---
 
@@ -187,6 +189,26 @@ Load by tier. Never load all files on every request.
 20. Framework dumps without operator experience.
 21. Data without narrative. Narrative without evidence.
 19. Forbidden phrases: "In today's fast-paced world", "It's no secret", "Let's dive in", "Game-changer", "Unpack", "leverage"
+
+---
+
+## Git & Safety
+
+This is a **PUBLIC** repo. Every file is visible to the world.
+
+### Secrets
+- Never write API keys, tokens, or passwords in code files. Use `.env.local` (gitignored).
+- `.env.example` has placeholder values only — never real credentials.
+- Before every commit, scan staged files for secret patterns (see `/ship` skill for full pattern list).
+- If a secret was already committed: it's **burned**. Warn to rotate immediately — deleting from code doesn't help, bots already scraped it.
+- If user pastes an API key in a code file, move it to `.env.local`, replace with `os.environ["VARIABLE_NAME"]`, and explain what was done.
+
+### Commits & Pushes
+- Use `/ship` (`skills/ship/SKILL.md`) for all pushes — runs secret scan and shows summary first.
+- Normal "push" still checks for secrets, but skips the full pre-flight.
+- Never `git push --force` or `git reset --hard` without explicit user request + warning about what will be lost.
+- Never hardcode `localhost` URLs in production code. Use environment variables or relative paths.
+- Stage specific files by name — never blind `git add .` or `git add -A`.
 
 ---
 
