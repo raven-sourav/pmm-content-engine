@@ -32,7 +32,9 @@ creative-writer/
 │   ├── suggest-themes/SKILL.md       <- PMM Brain-informed theme suggestions
 │   ├── visual/SKILL.md              <- Generate visual brief + image for posts
 │   ├── ingest/SKILL.md              <- Add new content to the system
-│   └── scraper/SKILL.md             <- Scrape Substack/Beehiiv newsletters
+│   ├── scraper/SKILL.md             <- Scrape Substack/Beehiiv newsletters
+│   ├── observe/SKILL.md             <- Self-improving: execution logging
+│   └── inspect-amend/SKILL.md       <- Self-improving: inspect, amend, evaluate
 ├── experts/                           <- Technique libraries (Tier 3)
 │   ├── ogilvy-headlines.md           <- Headline principles, Big Idea test
 │   ├── garyvee-distribution.md       <- Pillar→Micro model, platform-native rules
@@ -59,6 +61,7 @@ creative-writer/
 │   ├── user/visuals/                 <- User's visual illustrations (20 reference images)
 │   ├── scraped/                      <- Raw newsletter JSON files
 │   └── writers/                      <- Reference writer content
+├── _logs/                            <- Skill observation logs, flags, eval markers
 └── src/                              <- Python utilities (storage, schemas, parsing)
     ├── schemas/                      <- Pydantic data models
     ├── brain/                        <- brain_store.py, brain_injector.py
@@ -84,6 +87,8 @@ creative-writer/
 | **Ingest** | "Add this content" or new .docx/URL provided | `skills/ingest/SKILL.md` | Current Brain for delta |
 | **Scrape** | "Scrape this newsletter" or Substack/Beehiiv URL | `skills/scraper/SKILL.md` + `skills/ingest/SKILL.md` | Current Brain for delta |
 | **Q&A** | Question about PMM, positioning, etc. | Direct from Brain | Relevant Brain section |
+| **Observe** | After any skill execution with notable signals | `skills/observe/SKILL.md` | None (auto) |
+| **Inspect & Amend** | "Inspect skills" / "Calibrate skills" / 3+ flags for same skill | `skills/inspect-amend/SKILL.md` | Observation logs |
 
 ---
 
