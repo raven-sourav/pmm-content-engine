@@ -112,6 +112,12 @@ After amendment is applied:
 
 4. If degraded: restore from `_versions/v{N}.md`, log the rollback
 
+## Amendment Thresholds
+- **Trigger threshold**: Only propose amendment when Rubber Duck first-attempt pass rate drops below **50%** over 10+ runs, OR when 3+ flags accumulate for the same skill
+- **Improvement bar**: An amendment must improve the pass rate by at least **15 percentage points** OR reduce average revision rounds by at least **1 round**
+- **Revert rule**: If an amended skill doesn't improve the primary metric within **5 subsequent runs**, auto-revert. No exceptions.
+- **Cooldown**: After a revert, wait for **3 clean runs** before proposing a new amendment to the same skill
+
 ## Rules
 - Never amend without inspection evidence
 - Never apply without user approval

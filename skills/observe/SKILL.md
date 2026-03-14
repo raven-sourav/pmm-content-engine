@@ -86,8 +86,27 @@ If outcome is `failure`, or Rubber Duck score < 6 on any phase, or same drift in
 - [{timestamp}] {skill_name}: {one-line description of issue}
 ```
 
+## Primary Metric
+**Rubber Duck first-attempt pass rate** — % of drafts that score 8+ on all 5 phases without revision.
+
+This is the single number that tells us if the generation skills are working. Track it in each observation log's frontmatter:
+```
+first_attempt_pass: {yes|no}
+```
+
+When this rate drops below **50%** over 10+ generation runs, the generation or critique skill needs inspection.
+
+## Auto-Learn Gate
+Before logging an observation, it must pass ALL 4 criteria:
+1. **Genuine discovery** — not just a routine pass or a standard decontamination trigger
+2. **Durable value** — will this signal still matter in 6 months?
+3. **Verified signal** — the quality signal is confirmed, not speculative
+4. **Clear trigger** — you can describe exactly what condition caused it
+
+If any criterion fails, skip the log. This prevents observation noise.
+
 ## Rules
 - Keep observations factual, not interpretive
 - Never modify skill files from this workflow — observation only
 - One log file per skill execution
-- Do not log routine successful runs with no quality signals — only log when there's something worth tracking
+- Apply the Auto-Learn Gate — do not log routine successful runs that don't pass all 4 criteria

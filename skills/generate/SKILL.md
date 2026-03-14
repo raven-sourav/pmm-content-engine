@@ -130,3 +130,9 @@ Title: [Header]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+---
+**See also:** `skills/research/` (runs before generate) → `skills/critique/` (runs after generate) → `skills/distribute/` (atomizes pillar output)
+
+---
+**See also:** `skills/research/` (runs before generate) → `skills/critique/` (Rubber Duck gate) → `skills/distribute/` (atomize to other formats) | `skills/_index.md` for full data flow

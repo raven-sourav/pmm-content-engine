@@ -42,3 +42,9 @@ COMPOSITE: [score] | STATUS: [PASS/REWRITE/FLAG]
 [If REWRITE: specific instructions ranked by severity]
 [If FLAG: what needs fundamental rethinking]
 ```
+
+---
+**See also:** `skills/generate/` (produces drafts for critique) | `references/rubber-duck-escalator.md` (full protocol)
+
+---
+**See also:** `skills/generate/` (revision loop with critique) | `references/rubber-duck-escalator.md` (full protocol) | `skills/_index.md` for full data flow

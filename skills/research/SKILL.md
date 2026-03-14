@@ -67,3 +67,9 @@ RECOMMENDED ANGLES:
 
 Proceed with these angles? (yes / adjust)
 ```
+
+---
+**See also:** `skills/generate/` (consumes research output) | `skills/suggest-themes/` (alternative entry point for theme discovery)
+
+---
+**See also:** `skills/generate/` (consumes research output) | `skills/suggest-themes/` (Brain-informed alternatives) | `skills/_index.md` for full data flow
